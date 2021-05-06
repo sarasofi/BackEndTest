@@ -21,3 +21,5 @@ rango de 12 horas establecidas, de lo contrario el nuevo valor a pagar es el 10%
 
 Siempre para poder ver la factura del cliente, se debe llamar al método obtener factura.
 Para probar el codigo se debe crear una base de datos sin tablas que se llame 'products', se crea con este comando en mysql "create database products;", y en el archivo src/main/resources/aplication.yml se debe configurar los valores para establecer conexión con la base de datos, la url, usuario y contraseña.
+
+Finalmente por medio de http://localhost:8080/swagger-ui.html#/ se puede acceder a los productos rest.
